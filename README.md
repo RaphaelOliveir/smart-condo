@@ -10,7 +10,7 @@ O sistema de gerenciamento para condomínios oferece uma maneira simplificada de
 ## Funcionalidades 🛠
 - Comunicação assíncrona entre usuários.
 - Criação de votação online.
-- Realização reuniões, plebiscitos e pesquisas.
+- Realização de reuniões, plebiscitos e pesquisas.
 - Consulta de informações diversas como imóveis a venda ou aluguel, horário de funcionamento de regras.
 
 ## Tecnologias 🤖

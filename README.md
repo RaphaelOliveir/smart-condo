@@ -31,4 +31,8 @@ O sistema de gerenciamento para condomínios oferece uma maneira simplificada de
 </div>
 
 ## Owners 💻
-[<img loading="lazy" src="https://avatars.githubusercontent.com/u/75098561?v=4" width=115><br><sub>Raphael Oliveira</sub>](https://github.com/RaphaelOliveir)
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/105381855?v=4" width=115><br><sub>Rafael Bernadoni</sub>](https://github.com/RafaelBernardoni) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/105382179?v=4" width=115><br><sub>Saul Netto</sub>](https://github.com/SaulNetto) |  [<img loading="lazy" src="" width=115><br><sub>Gabriela Maria</sub>](https://github.com/) |   
+| :---: | :---: | :---: |
+
+| [<img loading="lazy" src="https://avatars.githubusercontent.com/u/75098561?v=4" width=115><br><sub>Raphael Oliveira</sub>](https://github.com/RaphaelOliveir) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127452262?v=4" width=115><br><sub>Gabriel Assunção</sub>](https://github.com/gabrielassuncao77 ) |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/127796794?v=4" width=115><br><sub>Gabriel Botini</sub>](https://github.com/GabrielBotini ) |   
+| :---: | :---: | :---: |

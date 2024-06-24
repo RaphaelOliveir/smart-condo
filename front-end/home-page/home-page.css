@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #101220;
+}
+
+.header {
+    display: flex;
+    background-color: #55057B;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.subtitle {
+    color: white;
+    font-weight: semi-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.quem-e-vc {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.quem-e-vc h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Possivel Morador */
+
+.possivel-morador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.possivel-morador:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.possivel-morador p {
+    background-color: #55057B;
+    padding: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 500;
+    width: 60%;
+}
+
+.possivel-seletor {
+    background-color: #370D4B;
+    padding: 18px;
+}
+
+/* Sindico */
+
+.sindico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.sindico:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.sindico p {
+    background-color: #55057B;
+    padding: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 500;
+    width: 60%;
+}
+
+.sindico-seletor {
+    background-color: #370D4B;
+    padding: 18px;
+}
+
+/* Morador */
+
+.morador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.morador:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.morador p {
+    background-color: #55057B;
+    padding: 18px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: 500;
+    width: 60%;
+}
+
+.morador-seletor {
+    background-color: #370D4B;
+    padding: 18px;
+}
+
+.footer {
+    display: flex;
+    background-color: #55057B;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    bottom: 0;
+}

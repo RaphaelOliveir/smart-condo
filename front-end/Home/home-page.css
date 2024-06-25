@@ -60,13 +60,15 @@ body {
     transition: 0.3s;
 }
 
-.possivel-morador p {
+.possivel-morador a {
     background-color: #55057B;
     padding: 18px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 500;
     width: 60%;
+    text-decoration: none;
+    color: white;
 }
 
 .possivel-seletor {
@@ -89,13 +91,15 @@ body {
     transition: 0.3s;
 }
 
-.sindico p {
+.sindico a {
     background-color: #55057B;
     padding: 18px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 500;
     width: 60%;
+    text-decoration: none;
+    color: white;
 }
 
 .sindico-seletor {
@@ -119,13 +123,15 @@ body {
     transition: 0.3s;
 }
 
-.morador p {
+.morador a {
     background-color: #55057B;
     padding: 18px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     font-weight: 500;
     width: 60%;
+    text-decoration: none;
+    color: white;
 }
 
 .morador-seletor {

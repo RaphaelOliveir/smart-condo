@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #101220;
+}
+
+.header {
+    display: flex;
+    background-color: #55057B;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 100vh;
+}
+
+/* Chamados */
+
+.chamados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.chamados:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.chamados a {
+    background-color: #55057B;
+    padding: 18px;
+    border-radius: 15px;
+    font-weight: 500;
+    width: 60%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Reuniões */
+
+.reunioes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    cursor: pointer;
+}
+
+.reunioes:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.reunioes a {
+    background-color: #55057B;
+    padding: 18px;
+    border-radius: 15px;
+    font-weight: 500;
+    width: 60%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #55057B;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    bottom: 0;
+}

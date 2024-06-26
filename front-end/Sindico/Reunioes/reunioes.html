@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reunioes.css">
+    <title>Reuniões</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../../assets/casa 1.png" alt="logo" width="30px" height="30px" />
+        <h1>SmartCondo</h1>
+        <div class="options">---</div>
+      </header>
+
+      <div class="container">
+        <div class="reunioes-agendadas">
+            <h2>Reuniões Agendadas</h2>
+            <div class="data-da-reuniao">
+                <h3>26/06/2024</h3>
+                <ul>
+                    <li>Reunião 1</li>
+                    <li>Reunião 2</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="agendar-nova-reuniao">
+            <h2>Agendar nova reunião</h2>
+            <form action="">
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data">
+                <label for="hora">Hora:</label>
+                <input type="time" name="hora" id="hora">
+                <label for="pauta">Pauta:</label>
+                <textarea name="pauta" id="pauta" cols="30" rows="7"></textarea>
+                <button type="submit">Agendar</button>
+            </form>
+        </div>
+      </div>
+
+      <footer class="footer">&copy Direitos reservados por SmartCondo</footer>
+</body>
+</html>

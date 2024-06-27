@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../home_visitante.css">
+    <link rel="stylesheet" href="detalhes.css">
+    <title>Detalhes da Casa</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../../assets/casa 1.png" alt="logo" width="30px" height="30px">
+        <h1>Detalhes da Casa</h1>
+        <div class="options">
+            
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="casa1" class="card">
+            <img src="https://img.freepik.com/fotos-gratis/villa-com-piscina-de-luxo-espetacular-design-contemporaneo-arte-digital-imoveis-casa-casa-e-propriedade-ge_1258-150749.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 1">
+            <div>
+                <h1>Casa Moderna</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+
+        <div id="casa2" class="card">
+            <img src="https://img.freepik.com/fotos-premium/linda-casa-com-arquitetura-minimalista-dia-de-sol_23365-15.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 2">
+            <div>
+                <h1>Casa Clássica</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+
+        <div id="casa3" class="card">
+            <img src="https://img.freepik.com/fotos-gratis/sala-estilo-mid-century-com-cores-quentes-ai-generative_123827-23931.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 3">
+            <div>
+                <h1>Apartamento</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+
+        <div id="casa4" class="card">
+            <img src="https://img.freepik.com/fotos-gratis/design-de-interiores-de-casas-contemporaneas_23-2151050945.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 4">
+            <div>
+                <h1>Casa de Campo</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+
+        <div id="casa5" class="card">
+            <img src="https://img.freepik.com/fotos-premium/exterior-de-casa-bonita-e-moderna-com-grama-verde_293060-14722.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 5">
+            <div>
+                <h1>Casa com quintal</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+
+        <div id="casa6" class="card">
+            <img src="https://img.freepik.com/fotos-gratis/villa-com-piscina-de-luxo-espetacular-design-contemporaneo-arte-digital-imoveis-casa-casa-e-propriedade-ge_1258-150765.jpg?size=626&ext=jpg&ga=GA1.1.1139406728.1715993743&semt=sph" alt="Casa 6">
+            <div>
+                <h1>Mansão</h1>
+                <p>Descrição detalhada da casa...</p>
+                <button onclick="window.history.back();">Voltar</button>
+                <button onclick="window.location.href = 'http://127.0.0.1:5500/smart-condo-main/front-end/possivelMorador/contatos/contato.html';">Mais Informações</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">&copy; Direitos reservados por SmartCondo</footer>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            if (card.id !== id) {
+                card.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

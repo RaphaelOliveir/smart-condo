@@ -95,8 +95,57 @@ body {
 
 .formulario-de-chamado {
   display: none;
-  position: absolute; /* Remove o formulário do fluxo normal */
-  width: 300px; /* Defina a largura desejada para o formulário */
+  position: absolute;
+  width: 300px;
+}
+
+.formulario-de-chamado h3 {
+  margin-top: 10px;
+}
+
+.formulario-de-chamado form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.formulario-de-chamado form textarea {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.formulario-de-chamado form textarea:focus {
+  outline: none;
+}
+
+.formulario-de-chamado form button {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #55057B;
+  color: white;
+  cursor: pointer;
+  width: 50%;
+}
+
+.formulario-de-chamado form button:hover {
+  background-color: #370D4B;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+.listagem {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.listagem li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .footer {

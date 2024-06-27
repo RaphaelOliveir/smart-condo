@@ -1,29 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    background-color: #230331;
-    padding: 20px;
-    min-height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #55057B;
-    color: white;
-    width: 100%;
-    padding: 10px 20px;
-    box-shadow: 0px 4px 6px #aaa;
-    margin-bottom: 20px;
+  display: flex;
+  background-color: #55057b;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+body {
+  background-color: #101220;
 }
 
 .container {
@@ -31,8 +25,8 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-    max-width: 800px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -98,11 +92,11 @@ body {
 }
 
 .footer {
+    display: flex;
     background-color: #55057B;
     color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
     bottom: 0;
 }

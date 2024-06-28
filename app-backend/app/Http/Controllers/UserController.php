@@ -18,23 +18,22 @@ class UserController extends Controller
     public function auth(Request $request)
     {
         $request->validate([
-            'email' => 'required|email', 
+            'name' => 'required|string', 
             'password' => 'required',
         ],
         [
-            'email.required'=> 'Campo e-mail é obrigatório',
-            'email.email' => 'Formato de e-mail inválido', 
+            'name.required'=> 'Campo nome é obrigatório',
             'password.required'=> 'Campo senha é obrigatório',
         ]);
 
-        if (Auth::attempt(['email' => $request->email, 'password' => $request->password])) {
+        if (Auth::attempt(['name' => $request->name, 'password' => $request->password])) {
             return redirect()->route('home');
 
             // AUTENTICAÇÃO BEM SUCEDIDA ENTÃO É REDIRECIONADO A HOME.
             
         } else {
             return redirect()->back()->withErrors([
-                'email' => 'As credenciais fornecidas não correspondem aos nossos registros.',
+                'name' => 'As credenciais fornecidas não correspondem aos nossos registros.',
 
                 // AUTENTICAÇÃO COM ERROS, DEIXEI PARA RODAR ESSA MENSAGEM
             ]);
@@ -62,7 +61,6 @@ class UserController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
@@ -71,7 +69,6 @@ class UserController extends Controller
     {
         return User::create([
             'name' => $data['name'],
-            'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
     }
